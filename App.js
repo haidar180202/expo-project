@@ -7,9 +7,9 @@ import Register from './applications/pages/Register';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Login/>
+      {/* <Login/> */}
       {/* <Register/> */}
-      {/* <Home/> */}
+      <Home/>
     </View>
   );
 }
